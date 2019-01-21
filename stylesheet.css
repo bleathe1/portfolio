@@ -1,0 +1,839 @@
+/* colors
+    yellow rgb(236,191,104)
+    light gray rgb(152,163,181)
+    dark gray rgb(87,88,92)
+*/
+
+/*header*/
+.navigation-bar {
+    width: 100%;
+    height: 90px;
+    border-bottom: 4px solid rgb(87,88,92);
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-left: 2em;
+  }
+
+.navigation-bar a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;
+    line-height: 80px;
+    text-decoration: none;
+    color:rgb(87,88,92);
+    float:right;
+    font-family: mr-eaves-modern, avenir, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+@media screen and (min-width:600px) {
+  .navigation-bar a {
+  font-size:22px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .navigation-bar a  {
+  font-size:24px;
+  }
+}
+
+.navigation-bar a:hover{
+  color:rgb(236,191,104);
+  font-family: mr-eaves-modern, avenir, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.navigation-bar a:active{
+  color:rgb(152,163,181);
+  font-family: mr-eaves-modern, avenir, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+h1{
+  color:rgb(236,191,104);
+  font-size: 30px;
+}
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+h2{
+  color:rgb(87,88,92);
+  font-size: 18px;
+  font-family: mr-eaves-modern, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  max-width:1000px;
+}
+
+@media screen and (min-width: 600px) {
+  h2 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  h2 {
+    font-size: 26px;
+  }
+}
+
+img{
+  max-width:1000px;
+}
+
+p{
+  font-size:16px;
+  line-height: 22px;
+  max-width: 1000px;
+  padding-top:2em;
+  padding-bottom:1em;
+}
+
+@media screen and (min-width:600px) {
+  p{
+  font-size: 18px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  p{
+  font-size: 20px;
+  }
+}
+
+.center{
+margin: auto;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+width: 70%;
+height: auto;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: mr-eaves-modern, avenir, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row img:hover {
+  color:rgb(236,191,104);
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+/*hover*/
+.content {
+  position: relative;
+  background-color:rgb(236,191,104);
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.content:hover .image {
+  opacity: 0.3;
+}
+
+.content:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color:white;
+  color: rgb(236,191,104);
+  font-size: 18px;
+  padding: 16px 32px;
+  font-family: mr-eaves-modern, avenir, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+/*about*/
+.about{
+  margin:auto;
+  margin-bottom:3em;
+}
+
+.about img{
+  width:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:1em;
+}
+
+
+@media screen and (min-width: 600px) {
+  .about {
+    display:flex;
+    width:80%;
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+  .about img{
+    width:330px;
+    height:400px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .about img{
+    width:400px;
+    height:500px;
+  }
+}
+
+
+
+
+/*Get in Touch*/
+.contact{
+  padding-top:2em;
+  margin:auto;
+}
+
+
+
+
+
+/*Books*/
+.group img{
+  padding:2px;
+}
+
+@media screen and (min-width:600px) {
+  .group{
+  display:flex;
+  }
+}
+
+.poster{
+  padding-bottom:1em;
+}
+
+
+
+
+
+/*milton*/
+.colors{
+  display: flex;
+  justify-content: center;
+}
+
+.milton {
+  width: 70px;
+  height: 70px;
+  margin: 8px;
+}
+
+@media screen and (min-width:600px) {
+  .milton{
+    width: 100px;
+    height: 100px;
+    margin: 18px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .milton{
+    width: 130px;
+    height: 130px;
+    margin: 20px;
+  }
+}
+
+.green {
+  background: #033F45;
+}
+
+.gray {
+  background: #AABFC1;
+}
+
+.orange {
+  background: #E78252;
+}
+
+.colors p{
+  text-align: center;
+  padding:0;
+  font-size:12px;
+  font-family: mr-eaves-modern, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@media screen and (min-width:600px) {
+  .colors p{
+    font-size:16px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .colors p{
+    font-size:18px;
+  }
+}
+
+.typename p{
+  color:rgb(236,191,104);
+  font-family: mr-eaves-modern, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size:16px;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+@media screen and (min-width:600px) {
+  .typename p{
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .typename p{
+    font-size:22px;
+  }
+}
+
+.athelasex p{
+  font-family: athelas,serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:16px;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+@media screen and (min-width:600px) {
+  .athelasex p{
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .athelasex p{
+    font-size:22px;
+  }
+}
+
+.oswaldex p{
+  font-family: oswald, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size:16px;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+@media screen and (min-width:600px) {
+  .oswaldex p{
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .oswaldex p{
+    font-size:22px;
+  }
+}
+
+
+
+
+
+/*grid*/
+.grid img{
+  padding-bottom: 1em;
+  padding-left: 1em;
+}
+
+.grid{
+  width:100%;
+  margin:auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom:10em;
+}
+
+@media screen and (min-width:600px) {
+  .grid{
+  display:flex;
+  }
+}
+
+
+
+
+
+
+/*mulino*/
+.colors{
+  display: flex;
+  justify-content: center;
+}
+
+.mulino {
+  width: 70px;
+  height: 70px;
+  margin: 8px;
+}
+
+@media screen and (min-width:600px) {
+  .mulino{
+    width: 100px;
+    height: 100px;
+    margin: 18px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .mulino{
+    width: 130px;
+    height: 130px;
+    margin: 20px;
+  }
+}
+
+.tan {
+  background: #EDB48B;
+}
+
+.red {
+  background: #8A3545;
+}
+
+.purple {
+  background: #472747;
+}
+
+.blue {
+  background: #16162D;
+}
+
+.colors p{
+  text-align: center;
+  padding:0;
+  font-size:12px;
+  font-family: mr-eaves-modern, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@media screen and (min-width:600px) {
+  .colors p{
+    font-size:16px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .colors p{
+    font-size:18px;
+  }
+}
+
+.typename p{
+  color:rgb(236,191,104);
+  font-family: mr-eaves-modern, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size:16px;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+@media screen and (min-width:600px) {
+  .typename p{
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .typename p{
+    font-size:22px;
+  }
+}
+
+.eavesex p{
+  font-family: mr-eaves-modern, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size:16px;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+@media screen and (min-width:600px) {
+  .eavesex p{
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .eavesex p{
+    font-size:22px;
+  }
+}
+
+
+
+
+
+
+/*women*/
+.colors{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.women {
+  width: 70px;
+  height: 70px;
+  margin: 8px;
+}
+
+
+@media screen and (min-width:600px) {
+  .women{
+    width: 100px;
+    height: 100px;
+    margin: 18px;
+  }
+}
+
+
+.womenpurple {
+  background: #AF4D90;
+}
+
+.womenblue {
+  background: #70C9BE;
+}
+
+.womenpink {
+  background: #F15B62;
+}
+
+.womenlightblue {
+  background: #BAE4EB;
+}
+
+.womenyellow {
+  background: #EFB935;
+}
+
+.womengreen {
+  background: #BDBF41;
+}
+
+.colors p{
+  text-align: center;
+  padding:0;
+  font-size:12px;
+  font-family: mr-eaves-modern, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@media screen and (min-width:600px) {
+  .colors p{
+    font-size:16px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .colors p{
+    font-size:18px;
+  }
+}
+
+.typename p{
+  color:rgb(236,191,104);
+  font-family: mr-eaves-modern, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size:16px;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+@media screen and (min-width:600px) {
+  .typename p{
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .typename p{
+    font-size:22px;
+  }
+}
+
+.hatchex p{
+  font-family: hatch, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size:16px;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+@media screen and (min-width:600px) {
+  .hatchex p{
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .hatchex p{
+    font-size:22px;
+  }
+}
+
+.domus p{
+  font-family: jaf-domus, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size:16px;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+@media screen and (min-width:600px) {
+  .domusex p{
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .domusex p{
+    font-size:22px;
+  }
+}
+
+@media screen and (min-width:600px) {
+  .woman{
+    display:flex;
+  }
+}
+
+
+
+
+
+/*kent*/
+.kentflex {
+  margin: 0 auto;
+  max-width: 2000px;
+}
+
+.responsive-image {
+  max-width: 100%;
+  padding:5px;
+}
+
+.item img {
+  display: block;
+}
+@media screen and (min-width: 600px) {
+  .kentgrid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom:1em;
+  }
+  .item {
+    width: 50%;
+
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .item {
+    width: calc(100% / 3);
+  }
+}
+
+
+
+
+
+/*field hockey*/
+.hockeyflex {
+  margin: 0 auto;
+  max-width: 2000px;
+}
+
+.responsive-image {
+  max-width: 100%;
+  padding:5px;
+}
+
+.item img {
+  display: block;
+}
+@media screen and (min-width: 600px) {
+  .hockeygrid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom:1em;
+  }
+  .item {
+    width: 50%;
+
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .item {
+    width: calc(100% / 3);
+  }
+}
+
+
+
+
+
+/*footer*/
+footer{
+  background-color:#98A3B5;
+  color:white;
+  font-family: mr-eaves-modern, avenir, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:12px;
+  width: 100%;
+  position:relative;
+  bottom: 0;
+  left: 0;
+}
+
+.footer{
+  padding:5px;
+  font-family: mr-eaves-modern, sans-serif;
+}
+
+footer a{
+  text-decoration: none;
+  color:white;
+}
+
+@media screen and (min-width:600px) {
+  .footer{
+  display:flex;
+  font-size:14px;
+  margin:auto;
+  }
+}
+
+@media screen and (min-width:600px) {
+  .footer h3{
+  padding-left:2em;
+  }
+}
