@@ -815,7 +815,7 @@ body {
 
 
 @media screen and (min-width:600px) {
-  .Crystals{
+  .crystal{
     width: 100px;
     height: 100px;
     margin: 18px;
@@ -824,23 +824,23 @@ body {
 
 
 .crystalgreen {
-  background: #77b89e;
+  background: rgb(119,184,158);
 }
 
 .crystalpurple {
-  background: #afbfd4;
+  background: rgb(175,191,212);
 }
 
 .crystalpink {
-  background: #dfc4df;
+  background: rgb(223,196,223);
 }
 
 .crystalblue {
-  background: #b6d4d4;
+  background: rgb(119,184,158);
 }
 
 .crystallime {
-  background: #bcd3a0;
+  background: rgb(188,211,160);
 }
 
 
