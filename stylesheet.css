@@ -800,6 +800,127 @@ body {
 
 
 
+/*crystals*/
+.colors{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.crystal {
+  width: 70px;
+  height: 70px;
+  margin: 8px;
+}
+
+
+@media screen and (min-width:600px) {
+  .Crystals{
+    width: 100px;
+    height: 100px;
+    margin: 18px;
+  }
+}
+
+
+.crystalgreen {
+  background: #77b89e;
+}
+
+.crystalpurple {
+  background: #afbfd4;
+}
+
+.crystalpink {
+  background: #dfc4df;
+}
+
+.crystalblue {
+  background: #b6d4d4;
+}
+
+.crystallime {
+  background: #bcd3a0;
+}
+
+
+
+.colors p{
+  text-align: center;
+  padding:0;
+  font-size:12px;
+  font-family: mr-eaves-modern, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@media screen and (min-width:600px) {
+  .colors p{
+    font-size:16px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .colors p{
+    font-size:18px;
+  }
+}
+
+.typename p{
+  color:rgb(236,191,104);
+  font-family: mr-eaves-modern, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size:16px;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+@media screen and (min-width:600px) {
+  .typename p{
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .typename p{
+    font-size:22px;
+  }
+}
+
+.niveauex p{
+  font-family: niveau-grotesk-small-caps,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:16px;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+@media screen and (min-width:600px) {
+  .niveauex p{
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .niveauex p{
+    font-size:22px;
+  }
+}
+
+
+@media screen and (min-width:600px) {
+  .woman{
+    display:flex;
+  }
+}
+
+
+
+
+
+
 /*footer*/
 footer{
   background-color:#98A3B5;
