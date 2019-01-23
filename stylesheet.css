@@ -102,7 +102,8 @@ h2{
 }
 
 img{
-  max-width:1000px;
+  max-width:900px;
+  margin:auto;
 }
 
 p{
@@ -149,6 +150,8 @@ body {
 
 
 
+
+
 /* Center website */
 .main {
   max-width: 1000px;
@@ -182,6 +185,17 @@ body {
   clear: both;
 }
 
+@media screen and (max-width: 600px) {
+  .main {
+    padding-bottom:5em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main {
+    padding-bottom:7em;
+  }
+}
 
 
 
@@ -804,7 +818,6 @@ body {
 .colors{
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .crystal {
@@ -812,7 +825,6 @@ body {
   height: 70px;
   margin: 8px;
 }
-
 
 @media screen and (min-width:600px) {
   .crystal{
@@ -822,28 +834,33 @@ body {
   }
 }
 
+@media screen and (min-width:900px) {
+  .crystal{
+    width: 130px;
+    height: 130px;
+    margin: 20px;
+  }
+}
 
-.crystalgreen {
+.lightgreen {
   background: rgb(119,184,158);
 }
 
-.crystalpurple {
+.lightpurple {
   background: rgb(175,191,212);
 }
 
-.crystalpink {
+.lightblue {
+  background: rgb(182,212,212);
+}
+
+.lightpink {
   background: rgb(223,196,223);
 }
 
-.crystalblue {
-  background: rgb(119,184,158);
-}
-
-.crystallime {
+.lime {
   background: rgb(188,211,160);
 }
-
-
 
 .colors p{
   text-align: center;
@@ -909,10 +926,35 @@ body {
   }
 }
 
+.crystalflex {
+  margin: 0 auto;
+  max-width: 2000px;
+}
 
-@media screen and (min-width:600px) {
-  .woman{
-    display:flex;
+.responsive-image {
+  max-width: 100%;
+  padding:5px;
+}
+
+.item img {
+  display: block;
+}
+@media screen and (min-width: 600px) {
+  .crystalgrid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom:1em;
+  }
+  .item {
+    width: 50%;
+
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .item {
+    width: calc(100% / 3);
   }
 }
 
