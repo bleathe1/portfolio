@@ -725,6 +725,10 @@ body {
   }
 }
 
+  .woman img{
+    padding:2px;
+  }
+
 
 
 
@@ -941,11 +945,6 @@ body {
   }
 }
 
-@media screen and (min-width: 1000px) {
-  .item {
-    width: calc(100% / 3);
-  }
-}
 
 
 
