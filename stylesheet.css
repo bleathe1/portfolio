@@ -1,14 +1,14 @@
 /* colors
-    yellow rgb(155,60,58)
-    light gray rgb(238,171,77)
-    dark gray rgb(27,31,54)
+    yellow rgb(236,191,104)
+    light gray rgb(152,163,181)
+    dark gray rgb(87,88,92)
 */
 
 /*header*/
 .navigation-bar {
     width: 100%;
     height: 90px;
-    border-bottom: 4px solid rgb(27,31,54);
+    border-bottom: 4px solid rgb(87,88,92);
 }
 .logo {
     display: inline-block;
@@ -27,7 +27,7 @@
     height: 80px;
     line-height: 80px;
     text-decoration: none;
-    color:rgb(27,31,54);
+    color:rgb(87,88,92);
     float:right;
     font-family: mr-eaves-modern, avenir, sans-serif;
     font-weight: 400;
@@ -48,14 +48,14 @@
 }
 
 .navigation-bar a:hover{
-  color:rgb(155,60,58);
+  color:rgb(236,191,104);
   font-family: mr-eaves-modern, avenir, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
 .navigation-bar a:active{
-  color:rgb(238,171,77);
+  color:rgb(152,163,181);
   font-family: mr-eaves-modern, avenir, sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -64,7 +64,7 @@
 
 
 h1{
-  color:rgb(155,60,58);
+  color:rgb(236,191,104);
   font-size: 30px;
 }
 
@@ -81,7 +81,7 @@ h1{
 }
 
 h2{
-  color:rgb(27,31,54);
+  color:rgb(87,88,92);
   font-size: 18px;
   font-family: mr-eaves-modern, sans-serif;
   font-weight: 700;
@@ -159,7 +159,7 @@ body {
 }
 
 .row img:hover {
-  color:rgb(155,60,58);
+  color:rgb(236,191,104);
 }
 
 .row {
@@ -193,7 +193,7 @@ body {
 /*hover*/
 .content {
   position: relative;
-  background-color:rgb(155,60,58);
+  background-color:rgb(236,191,104);
 }
 
 .image {
@@ -226,7 +226,7 @@ body {
 
 .text {
   background-color:white;
-  color: rgb(155,60,58);
+  color: rgb(236,191,104);
   font-size: 18px;
   padding: 16px 32px;
   font-family: mr-eaves-modern, avenir, sans-serif;
@@ -294,7 +294,7 @@ body {
 
 .about a{
   text-decoration: none;
-  color:rgb(155,60,58);
+  color:rgb(236,191,104);
 }
 
 
@@ -391,7 +391,7 @@ body {
 }
 
 .typename p{
-  color:rgb(155,60,58);
+  color:rgb(236,191,104);
   font-family: mr-eaves-modern, sans-serif;
   font-weight: 700;
   font-style: italic;
@@ -549,7 +549,7 @@ body {
 }
 
 .typename p{
-  color:rgb(155,60,58);
+  color:rgb(236,191,104);
   font-family: mr-eaves-modern, sans-serif;
   font-weight: 700;
   font-style: italic;
@@ -665,7 +665,7 @@ body {
 }
 
 .typename p{
-  color:rgb(155,60,58);
+  color:rgb(236,191,104);
   font-family: mr-eaves-modern, sans-serif;
   font-weight: 700;
   font-style: italic;
@@ -886,7 +886,7 @@ body {
 }
 
 .typename p{
-  color:rgb(155,60,58);
+  color:rgb(236,191,104);
   font-family: mr-eaves-modern, sans-serif;
   font-weight: 700;
   font-style: italic;
