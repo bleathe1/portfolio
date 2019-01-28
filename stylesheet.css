@@ -1,14 +1,14 @@
 /* colors
-    yellow rgb(236,191,104)
-    light gray rgb(152,163,181)
-    dark gray rgb(87,88,92)
+    yellow rgb(248,179,75)
+    light slate rgb(100,115,133)
+    dark slate rgb(28,52,97)
 */
 
 /*header*/
 .navigation-bar {
     width: 100%;
     height: 90px;
-    border-bottom: 4px solid rgb(87,88,92);
+    border-bottom: 4px solid rgb(28,52,97);
 }
 .logo {
     display: inline-block;
@@ -27,7 +27,7 @@
     height: 80px;
     line-height: 80px;
     text-decoration: none;
-    color:rgb(87,88,92);
+    color:rgb(100,115,133);
     float:right;
     font-family: mr-eaves-modern, avenir, sans-serif;
     font-weight: 400;
@@ -48,14 +48,14 @@
 }
 
 .navigation-bar a:hover{
-  color:rgb(236,191,104);
+  color:rgb(248,179,75);
   font-family: mr-eaves-modern, avenir, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
 .navigation-bar a:active{
-  color:rgb(152,163,181);
+  color:rgb(28,52,97);
   font-family: mr-eaves-modern, avenir, sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -64,7 +64,7 @@
 
 
 h1{
-  color:rgb(236,191,104);
+  color:rgb(248,179,75);
   font-size: 30px;
 }
 
@@ -81,7 +81,7 @@ h1{
 }
 
 h2{
-  color:rgb(87,88,92);
+  color:rgb(28,52,97);
   font-size: 18px;
   font-family: mr-eaves-modern, sans-serif;
   font-weight: 700;
@@ -112,6 +112,7 @@ p{
   max-width: 1000px;
   padding-top:2em;
   padding-bottom:1em;
+  color: rgb(28,52,97);
 }
 
 @media screen and (min-width:600px) {
@@ -142,7 +143,6 @@ height: auto;
 }
 
 body {
-  background-color: #f1f1f1;
   font-family: mr-eaves-modern, avenir, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -159,7 +159,7 @@ body {
 }
 
 .row img:hover {
-  color:rgb(236,191,104);
+  color:rgb(248,179,75);
 }
 
 .row {
@@ -193,7 +193,7 @@ body {
 /*hover*/
 .content {
   position: relative;
-  background-color:rgb(236,191,104);
+  background-color:rgb(28,52,97);
 }
 
 .image {
@@ -391,7 +391,7 @@ body {
 }
 
 .typename p{
-  color:rgb(236,191,104);
+  color:rgb(28,52,97);
   font-family: mr-eaves-modern, sans-serif;
   font-weight: 700;
   font-style: italic;
@@ -549,7 +549,6 @@ body {
 }
 
 .typename p{
-  color:rgb(236,191,104);
   font-family: mr-eaves-modern, sans-serif;
   font-weight: 700;
   font-style: italic;
@@ -665,7 +664,6 @@ body {
 }
 
 .typename p{
-  color:rgb(236,191,104);
   font-family: mr-eaves-modern, sans-serif;
   font-weight: 700;
   font-style: italic;
@@ -886,7 +884,6 @@ body {
 }
 
 .typename p{
-  color:rgb(236,191,104);
   font-family: mr-eaves-modern, sans-serif;
   font-weight: 700;
   font-style: italic;
@@ -962,7 +959,7 @@ body {
 
 /*footer*/
 footer{
-  background-color:#98A3B5;
+  background-color:rgb(100,115,133);
   color:white;
   font-family: mr-eaves-modern, avenir, sans-serif;
   font-weight: 400;
