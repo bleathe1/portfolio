@@ -7,9 +7,24 @@
 /*header*/
 .navigation-bar {
     width: 100%;
+    padding-left:1em;
+    padding-right:1em;
     height: 90px;
     border-bottom: 4px solid rgb(28,52,97);
 }
+
+@media screen and (min-width:600px) {
+  .navigation-bar {
+  padding-right:2em;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .navigation-bar {
+  padding-right:3em;
+  }
+}
+
 .logo {
     display: inline-block;
     vertical-align: top;
