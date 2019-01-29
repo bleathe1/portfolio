@@ -7,8 +7,6 @@
 /*header*/
 .navigation-bar {
     width: 100%;
-    padding-left:1em;
-    padding-right:1em;
     height: 90px;
     border-bottom: 4px solid rgb(28,52,97);
 }
