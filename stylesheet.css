@@ -718,7 +718,7 @@ body {
   }
 }
 
-.domus p{
+.domusex p{
   font-family: jaf-domus, sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -747,6 +747,7 @@ body {
 
   .woman img{
     padding:2px;
+    padding-bottom:4px;
   }
 
 
@@ -967,7 +968,84 @@ body {
 
 
 
+/*unaligned*/
+.colors{
+  display: flex;
+  justify-content: center;
+}
 
+.typecon {
+  width: 70px;
+  height: 70px;
+  margin: 8px;
+}
+
+@media screen and (min-width:600px) {
+  .typecon{
+    width: 100px;
+    height: 100px;
+    margin: 18px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .typecon{
+    width: 130px;
+    height: 130px;
+    margin: 20px;
+  }
+}
+
+.orange {
+  background: #EA7D5E;
+}
+
+.darkblue {
+  background: #0E6370;
+}
+
+
+.typename p{
+  font-family: mr-eaves-modern, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size:16px;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+@media screen and (min-width:600px) {
+  .typename p{
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .typename p{
+    font-size:22px;
+  }
+}
+
+.oswaldex p{
+  font-size:16px;
+  padding-top:0;
+  padding-bottom:0;
+  font-family: oswald, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media screen and (min-width:600px) {
+  .oswaldex p{
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .oswaldex p{
+    font-size:22px;
+  }
+}
 
 
 /*footer*/
