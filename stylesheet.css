@@ -872,14 +872,14 @@ body {
 		font-size: 18px;}
 	}
 
-.row:after {
+.kentrow:after {
   content: "";
   display: table;
   clear: both;
 }
 
 /* Six columns side by side */
-.column {
+.kentcolumn {
   float: left;
   width: 16.66%;
 }
