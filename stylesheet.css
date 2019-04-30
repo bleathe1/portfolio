@@ -1161,6 +1161,123 @@ body {
   padding:5px;
 }
 
+.roanokecolors{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.roanoke {
+  width: 70px;
+  height: 70px;
+  margin: 8px;
+}
+
+
+@media screen and (min-width:600px) {
+  .roanoke{
+    width: 100px;
+    height: 100px;
+    margin: 18px;
+  }
+}
+
+
+.lightteal {
+  background-color: rgb(152,179,172);
+}
+
+.slate {
+  background-color: rgb(76,78,80);
+}
+
+.lightred {
+  background-color: rgb(195,68,50);
+}
+
+.colors p{
+  text-align: center;
+  padding:0;
+  font-size:12px;
+  font-family: mr-eaves-modern, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@media screen and (min-width:600px) {
+  .colors p{
+    font-size:16px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .colors p{
+    font-size:18px;
+  }
+}
+
+.typename p{
+  font-family: mr-eaves-modern, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size:16px;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+@media screen and (min-width:600px) {
+  .typename p{
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .typename p{
+    font-size:22px;
+  }
+}
+
+.centuryex p{
+  font-family: century-gothic, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:16px;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+@media screen and (min-width:600px) {
+  .centuryex p{
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .centuryex p{
+    font-size:22px;
+  }
+}
+
+.lemondeex p{
+  font-family: le-monde-livre-std, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size:16px;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+@media screen and (min-width:600px) {
+  .lemondeex p{
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .lemondeex p{
+    font-size:22px;
+  }
+}
 
 
 
