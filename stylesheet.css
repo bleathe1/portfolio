@@ -1150,6 +1150,19 @@ body {
   }
 }
 
+/*roanoke*/
+.roanokeflex {
+  margin: 0 auto;
+  max-width: 2000px;
+}
+
+.roanokeresponsive-image {
+  max-width: 100%;
+  padding:5px;
+}
+
+
+
 
 /*footer*/
 footer{
