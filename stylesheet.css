@@ -382,26 +382,7 @@ body {
   background: #E78252;
 }
 
-.colors p{
-  text-align: center;
-  padding:0;
-  font-size:12px;
-  font-family: mr-eaves-modern, sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
 
-@media screen and (min-width:600px) {
-  .colors p{
-    font-size:16px;
-  }
-}
-
-@media screen and (min-width:900px) {
-  .colors p{
-    font-size:18px;
-  }
-}
 
 .typename p{
   color:rgb(28,52,97);
@@ -540,26 +521,6 @@ body {
   background: #16162D;
 }
 
-.colors p{
-  text-align: center;
-  padding:0;
-  font-size:12px;
-  font-family: mr-eaves-modern, sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-@media screen and (min-width:600px) {
-  .colors p{
-    font-size:16px;
-  }
-}
-
-@media screen and (min-width:900px) {
-  .colors p{
-    font-size:18px;
-  }
-}
 
 .typename p{
   font-family: mr-eaves-modern, sans-serif;
@@ -655,26 +616,6 @@ body {
   background: #BDBF41;
 }
 
-.colors p{
-  text-align: center;
-  padding:0;
-  font-size:12px;
-  font-family: mr-eaves-modern, sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-@media screen and (min-width:600px) {
-  .colors p{
-    font-size:16px;
-  }
-}
-
-@media screen and (min-width:900px) {
-  .colors p{
-    font-size:18px;
-  }
-}
 
 .typename p{
   font-family: mr-eaves-modern, sans-serif;
@@ -979,26 +920,7 @@ body {
   background: rgb(188,211,160);
 }
 
-.colors p{
-  text-align: center;
-  padding:0;
-  font-size:12px;
-  font-family: mr-eaves-modern, sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
 
-@media screen and (min-width:600px) {
-  .colors p{
-    font-size:16px;
-  }
-}
-
-@media screen and (min-width:900px) {
-  .colors p{
-    font-size:18px;
-  }
-}
 
 .typename p{
   font-family: mr-eaves-modern, sans-serif;
@@ -1195,27 +1117,6 @@ body {
   background-color: rgb(195,68,50);
 }
 
-.colors p{
-  text-align: center;
-  padding:0;
-  font-size:12px;
-  font-family: mr-eaves-modern, sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-@media screen and (min-width:600px) {
-  .colors p{
-    font-size:16px;
-  }
-}
-
-@media screen and (min-width:900px) {
-  .colors p{
-    font-size:18px;
-  }
-}
-
 .typename p{
   font-family: mr-eaves-modern, sans-serif;
   font-weight: 700;
@@ -1254,6 +1155,127 @@ body {
 
 @media screen and (min-width:900px) {
   .centuryex p{
+    font-size:22px;
+  }
+}
+
+.lemondeex p{
+  font-family: le-monde-livre-std, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size:16px;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+@media screen and (min-width:600px) {
+  .lemondeex p{
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .lemondeex p{
+    font-size:22px;
+  }
+}
+
+
+/*hydrolyte*/
+.hydrolyte{
+  display: flex;
+  justify-content: center;
+}
+
+.hydrolyte {
+  width: 70px;
+  height: 70px;
+  margin: 8px;
+}
+
+@media screen and (min-width:600px) {
+  .hydrolyte{
+    width: 100px;
+    height: 100px;
+    margin: 18px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .hydrolyte{
+    width: 130px;
+    height: 130px;
+    margin: 20px;
+  }
+}
+
+.lemon {
+  background: rgb(252,218,60);
+}
+
+.blueraspberry {
+  background: rgb(107,191,222);
+}
+
+.grape {
+  background: rgb(163,114,177);
+}
+
+.peach {
+  background: rgb(246,142,89);
+}
+
+.greenapple {
+  background: rgb(100,188,80);
+}
+
+.watermelon {
+  background: rgb(241,100,100);
+}
+
+.gray {
+  background: rgb(152,150,151);
+}
+
+
+.typename p{
+  font-family: mr-eaves-modern, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size:16px;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+@media screen and (min-width:600px) {
+  .typename p{
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .typename p{
+    font-size:22px;
+  }
+}
+
+.objektivex p{
+  font-family: objektiv-mk1,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:16px;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+@media screen and (min-width:600px) {
+  .objektivex p{
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .objektivex p{
     font-size:22px;
   }
 }
